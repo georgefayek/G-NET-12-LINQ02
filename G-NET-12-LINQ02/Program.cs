@@ -56,6 +56,19 @@ namespace G_NET_12_LINQ02
             //bool result5 = ids.Contains(9);
             #endregion
 
+            #region 6. Group all products by Category and print each group with its  product count.
+
+            //var result6 = products
+            //.GroupBy(p => p.Category);
+
+            //foreach (var group in result6)
+            //{
+            //    Console.WriteLine(group.Key + " Count: " + group.Count());
+            //}
+            #endregion
+
+
+
 
         }
     }

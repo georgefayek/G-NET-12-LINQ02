@@ -126,7 +126,15 @@ namespace G_NET_12_LINQ02
 
             #endregion
 
+            #region 14. Find countries that appear in list1 but NOT in list2    (case -insensitive). string[] list1 = { "Germany", "France", "UK", "Spain" };  string[] list2 = { "france", "SPAIN", "Italy" };
 
+            //string[] list1 = { "Germany", "France", "UK", "Spain" };
+            //string[] list2 = { "france", "SPAIN", "Italy" };
+
+            //var result14 = list1
+            //    .Where(x => !list2.Contains(x, StringComparer.OrdinalIgnoreCase));
+
+            #endregion
 
 
 

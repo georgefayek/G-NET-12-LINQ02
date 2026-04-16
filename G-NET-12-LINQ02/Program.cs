@@ -67,6 +67,18 @@ namespace G_NET_12_LINQ02
             //}
             #endregion
 
+            #region 7. Group products by Category and project only product names per group  
+           // var result7 = products
+           //.GroupBy(p => p.Category)
+           //.Select(g => new
+           //{
+           //    Category = g.Key,
+           //    Names = g.Select(p => p.ProductName)
+           //});
+
+
+            #endregion
+
 
 
 

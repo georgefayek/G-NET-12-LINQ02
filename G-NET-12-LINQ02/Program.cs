@@ -18,13 +18,20 @@ namespace G_NET_12_LINQ02
 
 
             #region 1. Get top 3 most expensive products
-          //  var result1 = products
-          //      .OrderByDescending(p => p.UnitPrice)
-          //      .Take(3);
+            //  var result1 = products
+            //      .OrderByDescending(p => p.UnitPrice)
+            //      .Take(3);
 
-          //   foreach (var p in result1)
-          //Console.WriteLine(p.ProductName);
+            //   foreach (var p in result1)
+            //Console.WriteLine(p.ProductName);
 
+            #endregion
+
+            #region 2. show page 2 of products, with page size = 5
+
+            //var result2 = products
+            //.Skip(5)
+            //.Take(5);
             #endregion
 
         }

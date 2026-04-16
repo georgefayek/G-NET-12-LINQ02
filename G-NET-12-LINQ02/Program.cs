@@ -158,6 +158,14 @@ namespace G_NET_12_LINQ02
             //    Console.WriteLine("Not Found");
             #endregion
 
+            #region 18. Generate a multiplication table row for 7
+
+            //var result17 = products.FirstOrDefault(p => p.UnitPrice > 500);
+
+            //if (result17 == null)
+            //    Console.WriteLine("Not Found");
+            #endregion
+
         }
     }
 }

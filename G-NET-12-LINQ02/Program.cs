@@ -105,6 +105,11 @@ namespace G_NET_12_LINQ02
             //var result10 = products.Sum(p => p.UnitsInStock);
             #endregion
 
+            #region 11. Find the CHEAPEST and MOST EXPENSIVE product prices
+            //var min = products.Min(p => p.UnitPrice);
+            //var max = products.Max(p => p.UnitPrice);
+            #endregion
+
 
 
 

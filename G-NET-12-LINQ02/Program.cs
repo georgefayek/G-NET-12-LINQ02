@@ -145,6 +145,10 @@ namespace G_NET_12_LINQ02
             //Console.WriteLine(product.ProductName);
             #endregion
 
+            #region 16. Get the first product whose price is greater than $50.
+
+            //var result16 = products.First(p => p.UnitPrice > 50);
+            #endregion
 
         }
     }

@@ -136,7 +136,14 @@ namespace G_NET_12_LINQ02
 
             #endregion
 
+            #region 15. Build a Dictionary<int, Product> keyed by ProductID. Then retrieve and print the product with ID = 18.
 
+            //var dict = products.ToDictionary(p => p.ProductID);
+
+            //var product = dict[18];
+
+            //Console.WriteLine(product.ProductName);
+            #endregion
 
 
         }

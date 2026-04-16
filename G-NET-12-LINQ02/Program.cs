@@ -1,4 +1,5 @@
 ﻿using G_NET_12_LINQ02.Models;
+using System.Diagnostics.Metrics;
 namespace G_NET_12_LINQ02
 
 {
@@ -86,6 +87,11 @@ namespace G_NET_12_LINQ02
             //.Where(g => g.Count() > 3)
             //.Select(g => g.Key);
 
+            #endregion
+
+            #region 9. Using QUERY SYNTAX, group customers by Country, and for each group select { Country, Count, TotalOrderValue }.
+
+            //var result10 = products.Sum(p => p.UnitsInStock);
             #endregion
 
 

@@ -166,6 +166,12 @@ namespace G_NET_12_LINQ02
             //    Console.WriteLine("Not Found");
             #endregion
 
+            #region 19. Generate even numbers between 1 and 30.
+
+           // var result19 = Enumerable.Range(1, 30)
+           //.Where(x => x % 2 == 0);
+            #endregion
+
         }
     }
 }

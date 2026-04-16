@@ -168,8 +168,15 @@ namespace G_NET_12_LINQ02
 
             #region 19. Generate even numbers between 1 and 30.
 
-           // var result19 = Enumerable.Range(1, 30)
-           //.Where(x => x % 2 == 0);
+            // var result19 = Enumerable.Range(1, 30)
+            //.Where(x => x % 2 == 0);
+            #endregion
+
+            #region 20. Concatenate the first 3 product names with the first 3 customer company names into a single sequence.
+
+            //var result20 = products.Take(3).Select(p => p.ProductName)
+            //.Concat(customers.Take(3).Select(c => c.CompanyName));
+
             #endregion
 
         }

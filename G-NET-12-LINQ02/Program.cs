@@ -90,9 +90,16 @@ namespace G_NET_12_LINQ02
             #endregion
 
             #region 9. Using QUERY SYNTAX, group customers by Country, and for each group select { Country, Count, TotalOrderValue }.
-
-            //var result10 = products.Sum(p => p.UnitsInStock);
+            //var result9 = from c in customers
+            //              group c by c.Country into g
+            //              select new
+            //              {
+            //                  Country = g.Key,
+            //                  Count = g.Count(),
+            //                  TotalOrderValue = g.Sum(x => x.Orders.Sum(o => o.Total))
+            //              };
             #endregion
+
 
 
 

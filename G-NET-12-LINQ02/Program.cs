@@ -34,6 +34,16 @@ namespace G_NET_12_LINQ02
             //.Take(5);
             #endregion
 
+            #region 3. Take products from the list as long as Their UnitPrice is less than $25(list is ordered by price).
+
+            //var result1 = products
+            //.OrderByDescending(p => p.UnitPrice)
+            //.Take(3);
+
+            //foreach (var p in result1)
+            //    Console.WriteLine(p.ProductName);
+            #endregion
+
         }
     }
 }

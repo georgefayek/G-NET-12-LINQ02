@@ -110,6 +110,15 @@ namespace G_NET_12_LINQ02
             //var max = products.Max(p => p.UnitPrice);
             #endregion
 
+            #region 12. Get a distinct list of all product categories
+
+            //var result12 = products
+            //.Select(p => p.Category)
+            //.Distinct();
+            #endregion
+
+
+
 
 
 

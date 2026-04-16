@@ -150,6 +150,10 @@ namespace G_NET_12_LINQ02
             //var result16 = products.First(p => p.UnitPrice > 50);
             #endregion
 
+            #region 17. Try to get the first product with a price > $500. it returns null  instead of throwing
+            
+            #endregion
+
         }
     }
 }

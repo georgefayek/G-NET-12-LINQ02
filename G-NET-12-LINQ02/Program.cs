@@ -50,6 +50,12 @@ namespace G_NET_12_LINQ02
             //Console.WriteLine(result4);
             #endregion
 
+            #region 5. Check if the ID list contains 9 int[] ids = { 3, 9, 13, 18 }
+            //int[] ids = { 3, 9, 13, 18 };
+
+            //bool result5 = ids.Contains(9);
+            #endregion
+
 
         }
     }

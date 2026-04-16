@@ -41,7 +41,15 @@ namespace G_NET_12_LINQ02
             // .TakeWhile(p => p.UnitPrice < 25);
             #endregion
 
-            
+            #region 4. Check if ALL products in the "Seafood" category are in stock
+
+            //var result4 = products
+            //.Where(p => p.Category == "Seafood")
+            //.All(p => p.UnitsInStock > 0);
+
+            //Console.WriteLine(result4);
+            #endregion
+
 
         }
     }
